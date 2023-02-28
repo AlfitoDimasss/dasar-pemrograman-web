@@ -106,8 +106,8 @@ header .jumbotron .btn-learn {
 }
 
 header #header-blob-1 {
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   background-color: #a157ff;
   border-radius: 50%;
   position: absolute;
@@ -363,8 +363,8 @@ footer .footer-container li a {
   }
 
   header #header-blob-1 {
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     bottom: -150px;
     left: 120px;
   }

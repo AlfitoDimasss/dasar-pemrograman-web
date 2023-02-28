@@ -357,6 +357,7 @@ footer li a {
   font-weight: 400;
 }
 
+
 @media screen and (max-width: 768px) {
   header nav {
     padding: 30px 30px;
@@ -398,6 +399,9 @@ footer li a {
   article#article1 {
     width: 100%;
     padding: 50px 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   article#article1 .title {
@@ -432,6 +436,126 @@ footer li a {
 
   article#article1 #blob-content-4 {
     visibility: hidden;
+  }
+
+  aside {
+    display: none;
+  }
+
+  article#article2 {
+    padding: 50px 50px;
+    gap: 20px;
+  }
+
+  article#article2 img {
+    width: 75%;
+  }
+
+  article#article2 h4 {
+    font-size: 18px;
+  }
+
+  article#article2 p {
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+  footer div.container {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header nav {
+    padding: 30px 30px;
+  }
+
+  header ul.ul-nav {
+    display: none;
+  }
+
+  header .hamburger-button {
+    cursor: pointer;
+  }
+
+  header .hamburger-button div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+  header .jumbotron {
+    padding: 0 30px;
+  }
+
+  header .header-title {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  header .header-desc {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  header #blob1 {
+    width: 400px;
+    height: 400px;
+    bottom: -200px;
+    left: 250px
+  }
+
+  header #blob4,
+  header #blob3 {
+    display: none;
+  }
+
+  article#article1 {
+    width: 100%;
+    padding: 100px 30px;
+    /* background-color: red; */
+  }
+
+  article#article1 .title {
+    font-size: 16px;
+  }
+
+  article#article1 .desc h4 {
+    font-size: 18px;
+  }
+
+  article#article1 .desc p {
+    font-size: 14px;
+  }
+
+  article#article1 #blob-content-1 {
+    right: -175px;
+    display: none;
+  }
+
+  article#article1 #blob-content-2 {
+    right: -200px;
+    display: none;
+  }
+
+  article#article1 #blob-content-3 {
+    right: -250px;
+    display: none;
+  }
+
+  article#article1 img {
+    position: absolute;
+    right: 0px;
+    width: 25%;
+    display: none;
+  }
+
+  article#article1 #blob-content-4 {
+    display: none;
   }
 
   aside {

@@ -55,6 +55,14 @@ header nav .nav-link .btn-sign {
   color: #811fff;
 }
 
+header nav .nav-link .btn-sign:hover {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid white;
+}
+
 header .hamburger-button {
   cursor: pointer;
 }
@@ -99,10 +107,23 @@ header .jumbotron .btn-learn {
   margin-right: 8px;
 }
 
+header .jumbotron .btn-sign:hover {
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
+  border: 1px solid white;
+}
+
 header .jumbotron .btn-learn {
   background-color: transparent;
   color: white;
   border: 1px solid white;
+}
+
+header .jumbotron .btn-learn:hover {
+  background-color: white;
+  color: #811fff;
 }
 
 header #header-blob-1 {
@@ -180,6 +201,11 @@ main article .btn-learn {
   border: 1px solid #9e52ff;
   padding: 10px 15px;
   border-radius: 15px;
+}
+
+main article .btn-learn:hover {
+  background-color: #811fff;
+  color: white;
 }
 
 main article .img1 {
@@ -336,27 +362,6 @@ footer .footer-container li a {
   header nav .nav-link {
     display: block;
   }
-
-  /* header nav .nav-link ul {
-    display: flex;
-    gap: 20px;
-  }
-
-  header nav .nav-link li {
-    list-style-type: none;
-  }
-
-  header nav .nav-link li a {
-    text-decoration: none;
-    color: white
-  }
-
-  header nav .nav-link .btn-sign {
-    background-color: white;
-    padding: 10px 15px;
-    border-radius: 15px;
-    color: #811fff;
-  } */
 
   header .jumbotron h5 {
     font-size: 16px;

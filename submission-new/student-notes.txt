@@ -1,0 +1,15 @@
+Nama: Alfito Dimas Prasetyo
+Username: alfitodimas
+
+Terdapat penggunaan JavaScript di proyek ini, yaitu penggunaan smooth-scrolling dan collapse-navbar sederhana.
+Penggunaan smooth-scrolling dilakukan dengan menyeleksi link-link pada navbar, dan memberikan event listener click ke setiap link,
+yang dimana saat di klik akan menjalankan fungsi yang pertama menjalankan statement untuk mengambil atribut href dari link tersebut,
+lalu selanjutnya mengambil nilai offsetTop dari elemen yang telah diambil nilai hrefnya, selanjutnya akan dijalankan fungsi bawaan scroll()
+untuk menjalankan animasi smooth scroll dengan parameter sebuah objek yg memiliki nilai properti top bernilai offsetTop yang sebelumnya telah diambil,
+dan properti behavior yang diisi nilai 'smooth'.
+
+selanjutnya terdapat penggunaan javascript sederhana untuk menampilkan navbar saat dalam media smartphone, yang mana pada media tersebut navbar ditampilkan
+menggunakan hamburger bar, dan apabila hamburger bar tsb di klik akan menampilkan navbar lengkapnya. Cara penggunaannya yaitu menyeleksi elemen hamburger-bar,
+selanjutnya elemen tsb diberi event listener click, yang mana saat di click akan dilakukan seleksi terhadap elemen link-link pada navbar, dan akan dicek apakah
+properti displaynya none/null ataukah block, apabila none/null maka properti display link akan di set menjadi 'block' dan apabila bernailai 'block' maka properti
+display link akan diset 'none'. 
